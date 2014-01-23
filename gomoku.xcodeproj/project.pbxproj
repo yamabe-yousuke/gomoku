@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B1060B9186BEDD700C543CD /* white.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B1060B8186BEDD700C543CD /* white.png */; };
+		8B1060BB186BEDE000C543CD /* black.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B1060BA186BEDE000C543CD /* black.png */; };
 		8B2534C51859859100459D5E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B2534C41859859100459D5E /* UIKit.framework */; };
 		8B2534C71859859100459D5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B2534C61859859100459D5E /* Foundation.framework */; };
 		8B2534C91859859100459D5E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B2534C81859859100459D5E /* CoreGraphics.framework */; };
@@ -23,6 +25,10 @@
 		8B2534EB1859859100459D5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B2534C61859859100459D5E /* Foundation.framework */; };
 		8B2534F31859859200459D5E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8B2534F11859859200459D5E /* InfoPlist.strings */; };
 		8B2534F61859859200459D5E /* gomokuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B2534F51859859200459D5E /* gomokuTests.m */; };
+		8B94CE7B1862BFCB00E5A55E /* SimplyGomoku02.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B94CE7A1862BFCB00E5A55E /* SimplyGomoku02.png */; };
+		8B94CE801862C40100E5A55E /* SimplyGomoku01.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B94CE7D1862C40100E5A55E /* SimplyGomoku01.png */; };
+		8B94CE811862C40100E5A55E /* SimplyGomoku03.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B94CE7E1862C40100E5A55E /* SimplyGomoku03.png */; };
+		8B94CE831862C53500E5A55E /* SimplyGomoku04.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B94CE821862C53500E5A55E /* SimplyGomoku04.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8B1060B8186BEDD700C543CD /* white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = white.png; sourceTree = "<group>"; };
+		8B1060BA186BEDE000C543CD /* black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = black.png; sourceTree = "<group>"; };
 		8B2534C11859859100459D5E /* gomoku.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gomoku.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B2534C41859859100459D5E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8B2534C61859859100459D5E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -58,6 +66,10 @@
 		8B2534F21859859200459D5E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8B2534F41859859200459D5E /* gomokuTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gomokuTests.h; sourceTree = "<group>"; };
 		8B2534F51859859200459D5E /* gomokuTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gomokuTests.m; sourceTree = "<group>"; };
+		8B94CE7A1862BFCB00E5A55E /* SimplyGomoku02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SimplyGomoku02.png; sourceTree = SOURCE_ROOT; };
+		8B94CE7D1862C40100E5A55E /* SimplyGomoku01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SimplyGomoku01.png; sourceTree = "<group>"; };
+		8B94CE7E1862C40100E5A55E /* SimplyGomoku03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SimplyGomoku03.png; sourceTree = "<group>"; };
+		8B94CE821862C53500E5A55E /* SimplyGomoku04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SimplyGomoku04.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +142,12 @@
 		8B2534CB1859859100459D5E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8B1060B8186BEDD700C543CD /* white.png */,
+				8B1060BA186BEDE000C543CD /* black.png */,
+				8B94CE821862C53500E5A55E /* SimplyGomoku04.png */,
+				8B94CE7D1862C40100E5A55E /* SimplyGomoku01.png */,
+				8B94CE7E1862C40100E5A55E /* SimplyGomoku03.png */,
+				8B94CE7A1862BFCB00E5A55E /* SimplyGomoku02.png */,
 				8B2534CC1859859100459D5E /* gomoku-Info.plist */,
 				8B2534CD1859859100459D5E /* InfoPlist.strings */,
 				8B2534D01859859100459D5E /* main.m */,
@@ -236,6 +254,12 @@
 				8B2534D91859859100459D5E /* Default@2x.png in Resources */,
 				8B2534DB1859859100459D5E /* Default-568h@2x.png in Resources */,
 				8B2534DE1859859100459D5E /* MainStoryboard.storyboard in Resources */,
+				8B94CE7B1862BFCB00E5A55E /* SimplyGomoku02.png in Resources */,
+				8B94CE801862C40100E5A55E /* SimplyGomoku01.png in Resources */,
+				8B94CE811862C40100E5A55E /* SimplyGomoku03.png in Resources */,
+				8B94CE831862C53500E5A55E /* SimplyGomoku04.png in Resources */,
+				8B1060B9186BEDD700C543CD /* white.png in Resources */,
+				8B1060BB186BEDE000C543CD /* black.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -453,6 +477,7 @@
 				8B2534FB1859859200459D5E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8B2534FC1859859200459D5E /* Build configuration list for PBXNativeTarget "gomokuTests" */ = {
 			isa = XCConfigurationList;
@@ -461,6 +486,7 @@
 				8B2534FE1859859200459D5E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

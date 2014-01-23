@@ -14,10 +14,33 @@
 
 @implementation ViewController
 
+UIImage *white_img;
+UIImage *black_img;
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    self.againtn.hidden = YES;
+    
+    turn = 0;
+}
+
+-(IBAction)stone:(id)sender{
+    if (turn==0) {
+        [self.setstone setImage:[UIImage imageNamed:@"white.png"] forState:(UIControlStateNormal)];
+        self.kekka.text = @"黒の番です";
+        turn = 1;
+            }
+    else{
+        [self.setstone setImage:[UIImage imageNamed:@"black.png"] forState:(UIControlStateNormal)];
+        self.kekka.text = @"白の番です";
+        turn = 0;
+    }
+}
+
+- (IBAction)again:(id)sender {
+    
 }
 
 - (void)didReceiveMemoryWarning
