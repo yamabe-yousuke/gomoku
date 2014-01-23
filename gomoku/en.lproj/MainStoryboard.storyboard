@@ -37,11 +37,11 @@
                                     <action selector="again:" destination="2" eventType="touchUpInside" id="eK7-V7-Rop"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="b1F-nM-CJq">
-                                <rect key="frame" x="144" y="214" width="32" height="32"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="b1F-nM-CJq">
+                                <rect key="frame" x="-80" y="-90" width="480" height="640"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Button">
+                                <state key="normal" title="Button" backgroundImage="SimplyGomoku04.png">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -961,6 +961,18 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="JsJ-pz-u4p">
+                                <rect key="frame" x="144" y="214" width="32" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Sjc-dr-DkS">
                                 <rect key="frame" x="268" y="214" width="32" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1050,7 +1062,7 @@
                         <outlet property="setstone39" destination="Siv-FN-E1D" id="FQl-Xx-IeA"/>
                         <outlet property="setstone4" destination="CXM-bc-mwP" id="hEr-si-CC8"/>
                         <outlet property="setstone40" destination="Ayd-jO-czm" id="DiF-T6-B09"/>
-                        <outlet property="setstone41" destination="b1F-nM-CJq" id="oVA-ug-DmV"/>
+                        <outlet property="setstone41" destination="JsJ-pz-u4p" id="HYK-kZ-6Fu"/>
                         <outlet property="setstone42" destination="YNj-YD-SdI" id="0bt-Tc-AdC"/>
                         <outlet property="setstone43" destination="Z9t-QM-eqN" id="6cW-IY-AME"/>
                         <outlet property="setstone44" destination="4CW-Di-K21" id="3cv-61-0EB"/>
@@ -1105,7 +1117,100 @@
     </scenes>
     <resources>
         <image name="SimplyGomoku02 のコピー 4.png" width="16" height="16"/>
+        <image name="SimplyGomoku04.png" width="480" height="640"/>
     </resources>
+    <classes>
+        <class className="ViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="again:"/>
+                <relationship kind="action" name="stone:"/>
+                <relationship kind="outlet" name="againtn" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="kekka" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="setstone1" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="setstone10" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="setstone11" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="setstone12" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="setstone13" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="setstone14" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="setstone15" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="setstone16" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="setstone17" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="setstone18" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="setstone19" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="setstone2" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="setstone20" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="setstone21" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="setstone22" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="setstone23" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="setstone24" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="setstone25" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="setstone26" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="setstone27" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="setstone28" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="setstone29" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="setstone3" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="setstone30" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="setstone31" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="setstone32" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="setstone33" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="setstone34" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="setstone35" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="setstone36" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="setstone37" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="setstone38" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="setstone39" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="setstone4" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="setstone40" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="setstone41" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="setstone42" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="setstone43" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="setstone44" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="setstone45" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="setstone46" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="setstone47" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="setstone48" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="setstone49" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="setstone5" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="setstone50" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="setstone51" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="setstone52" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="setstone53" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="setstone54" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="setstone55" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="setstone56" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="setstone57" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="setstone58" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="setstone59" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="setstone6" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="setstone60" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="setstone61" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="setstone62" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="setstone63" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="setstone64" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="setstone65" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="setstone66" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="setstone67" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="setstone68" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="setstone69" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="setstone7" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="setstone70" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="setstone71" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="setstone72" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="setstone73" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="setstone74" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="setstone75" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="setstone76" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="setstone77" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="setstone78" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="setstone79" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="setstone8" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="setstone80" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="setstone81" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="setstone9" candidateClass="UIButton"/>
+            </relationships>
+        </class>
+    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
