@@ -564,6 +564,9 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="stone:" destination="2" eventType="touchUpInside" id="dYV-1i-24Y"/>
+                                </connections>
                             </button>
                             <button opaque="NO" tag="20" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="v0X-v4-d9m">
                                 <rect key="frame" x="51" y="150" width="32" height="32"/>
@@ -1112,7 +1115,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="581" y="121"/>
+            <point key="canvasLocation" x="632" y="124"/>
         </scene>
     </scenes>
     <resources>

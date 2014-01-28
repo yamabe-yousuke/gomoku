@@ -1,4 +1,4 @@
-//
+                                                                                              //
 //  ViewController.h
 //  gomoku
 //
@@ -14,6 +14,7 @@
 
 @property (weak, nonatomic) IBOutlet UILabel *kekka;
 @property (weak, nonatomic) IBOutlet UIButton *againtn;
+
 @property (weak, nonatomic) IBOutlet UIButton *setstone1;
 @property (weak, nonatomic) IBOutlet UIButton *setstone2;
 @property (weak, nonatomic) IBOutlet UIButton *setstone3;
@@ -95,8 +96,6 @@
 @property (weak, nonatomic) IBOutlet UIButton *setstone79;
 @property (weak, nonatomic) IBOutlet UIButton *setstone80;
 @property (weak, nonatomic) IBOutlet UIButton *setstone81;
-
-
 
 -(IBAction)again:(id)sender;
 
